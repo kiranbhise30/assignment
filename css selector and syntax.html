@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css1.css">
+</head>
+<!-- inline css use here -->
+<style>
+    h1{
+        
+        border: 1px solid red;
+    }
+    p{
+        background-color: rgb(238, 163, 163);
+        text-align: center;
+        color: blue;
+        border: 1px solid red;
+    }
+</style>
+<body>
+    <!-- inline css use here -->
+    <h1 style="color: black;">My Heading</h1>
+    <p>This is my first paragraph</p>
+    <p>This is my second paragraph</p>
+    <br>
+    <br>
+
+    <h1 style="color: black;">External css </h1>
+
+    <!-- external css use here -->
+    <h2>This is my paragraph</h2>
+
+    <!-- section changellel 3 -->
+    <mark> Challenge 3 </mark>
+    <form style="border: 3px solid black; width: 500px">
+        <!-- label for defining user information-->
+        <label id="name-label" for="name">Name</label> <br>
+        <!-- input with required fields -->
+        <input type="text" name="name" id="name" placeholder="Enter Your Name"
+        required> <br><br>
+        <!-- label for defining user information-->
+        <label id="email-label" for="email">Email</label> <br>
+        <!-- input with required fields -->
+        <input type="email" name="email" id="email" placeholder="test@gmail.com"
+        required> <br><br>
+        <!-- label for defining user information-->
+        <label id="number-label" for="number">Roll No</label> <br>
+        <!-- input with required fields -->
+        <input type="number" name="number" id="number" placeholder="roll" min="0"
+        max="100" required> <br><br>
+        <!-- label for defining user information-->
+        <label for="drop-down">How do you rate our courses?</label> <br>
+        <!-- drop-down -->
+        <select name="drop-down" id="drop-down" class="inputfields">
+        <option value="Excellent">Excellent
+        </option>
+        <option value="Good">Good
+        </option>
+        <option value="Fair">Fair
+        </option>
+        <option value="Poor">Poor
+        </option>
+        </select> <br><br>
+        <!-- label for defining user information-->
+        <label>Your Favorite Topic in HTML</label> <br>
+        <!-- checkbox -->
+         <input type="checkbox" name="topic1" value="Structuralelements">Structural
+        Elements <br>
+        <input type="checkbox" name="topic2" value="LinksandList">Links and List <br>
+        <input type="checkbox" name="topic3" value="media">HTML Media<br>
+        <input type="checkbox" name="topic4" value="tables">HTML Table<br>
+        <input type="checkbox" name="topic5" value="groupelements">Grouping
+        Elements<br>
+        <input type="checkbox" name="topic6" value="forms">Forms<br><br>
+        <!-- label for defining user information-->
+        <label>Do you like the HTML course?</label> <br>
+        <!-- radio button -->
+        <input type="radio" name="course" value="yes"> Yes
+        <input type="radio" name="course" value="no"> No <br><br>
+        <!-- label for defining user information-->
+        <label>Few words about course</label> <br>
+        <!-- text area -->
+        <textarea class="inputfields" rows="5" cols="50" name="Description"
+        id="Description"></textarea> <br><br>
+        <!--button with alert-->
+        <button class="submit" type="button"
+        onclick="alert('Validating')">Submit</button>
+        </form>
+</body>
+</html>
