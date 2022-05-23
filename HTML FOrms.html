@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- h1 use for title -->
+    <h1>Challenge 1</h1>
+    <!-- An HTML form is used to collect user input. The user input is most often sent to a server for processing. -->
+    <form>
+        <!-- label use for getting information 1 -->
+        <label for="Username">Username</label>
+        <br>
+        <!-- input value  -->
+        <input type="text" name="Username" required placeholder="Enter Your Name ">
+        <br>
+        <br>
+        <!-- label use for getting information  2 -->
+        <label for="Email">Email</label>
+        <br>
+        <!-- input value  2-->
+        <input type="text" name="Email" required placeholder="Enter your Email">
+        <br>
+        <br>
+        <!-- label use for getting information 3 -->
+        <label for="Password">Password</label><br>
+        <!-- input value -->
+        <input type="text" name="Password" required placeholder="Enter Your Password">
+        <br>
+        <br>
+        <!-- button use to sumbit -->
+        <button onclick="alert('server validity')">Validate</button>
+
+    </form>
+    <!-- start 2 Challenge here -->
+    <h1>Challenge 2</h1>
+    <form>
+        <!-- user getting information -->
+        <label for="name">Name</label><br>
+        <!-- input value -->
+        <input type="text" name="Name" required placeholder="Enter Your Name">
+        <br>
+        <br>
+        <!-- user getting info 1 -->
+        <label for="Roll No.">Roll No</label><br>
+        <!-- user getting info 2 -->
+        <input type="text" name="Roll No" required placeholder="Enter Your Roll No">
+        <br>
+        <br>
+        <!-- user getting info 3 -->
+        <label for="drop-down">How do you rate our courses?</label><br>
+        <!-- option given here select -->
+        <select name="drop-down" id="drop-down">
+            <!-- option given here 1 -->
+            <option value="Excellent">Excellent
+            </option>
+            <!-- option given here 2 -->
+            <option value="Good">Good
+            </option>
+            <!-- option given here 3 -->
+            <option value="Fair">Fair
+            </option>
+            <!-- option given here 4 -->
+            <option value="Poor">Poor
+            </option>
+        </select>
+        <!--  take break here -->
+        <br>
+        <br>
+        <label>Your Favorite Topic in HTML</label><br>
+        <!-- checkboxes -->
+        <input type="checkbox" name="topic1" value="Structural elements">Structural
+        Elements <br>
+        <input type="checkbox" name="topic2" value="Links and List">Links and List <br>
+        <input type="checkbox" name="topic3" value="media">HTML Media<br>
+        <input type="checkbox" name="topic4" value="tables">HTML Table<br>
+        <input type="checkbox" name="topic5" value="group elements">Grouping
+        Elements<br>
+        <input type="checkbox" name="topic6" value="forms">Forms
+        <br><br>
+        <!-- user getting info 4 -->
+        <label>Do you like the HTML course?</label><br>
+        <!-- radio button -->
+        <input type="radio" name="course" value="yes"> Yes
+        <input type="radio" name="course" value="no"> No
+         <br><br>
+         <!-- user getting info 5 -->
+         <label>Few words about course</label> <br>
+         <!-- text area -->
+        <textarea rows="5" cols="50" name="Description" id="Description"></textarea>
+        <br><br>
+        <!--button with alert-->
+        <button type="button" onclick="alert('Validating')">Submit</button>
+        </form>
+</body>
+</html>
